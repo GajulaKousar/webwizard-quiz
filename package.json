@@ -1,9 +1,9 @@
 {
   "name": "web-wizard",
-  "version": "2.1.0",
-  "private": true,
+  "version": "3.0.0",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node smoke.js"
   },
   "engines": {
     "node": ">=18"
@@ -11,6 +11,6 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^4.21.0",
-    "pg": "^8.16.3"
+    "pg": "^8.13.0"
   }
 }
